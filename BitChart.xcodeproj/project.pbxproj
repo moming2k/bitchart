@@ -15,6 +15,8 @@
 		4BA4E0331FFD1D000034B522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA4E0311FFD1D000034B522 /* LaunchScreen.storyboard */; };
 		4BA4E03E1FFD1D010034B522 /* BitChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4E03D1FFD1D010034B522 /* BitChartTests.swift */; };
 		4BA4E0491FFD1D010034B522 /* BitChartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4E0481FFD1D010034B522 /* BitChartUITests.swift */; };
+		4BA4E0571FFD1F200034B522 /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4E0561FFD1F200034B522 /* CurrencyViewController.swift */; };
+		4BA4E0591FFD20BB0034B522 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4E0581FFD20BA0034B522 /* CurrencyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4BA4E0441FFD1D010034B522 /* BitChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA4E0481FFD1D010034B522 /* BitChartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitChartUITests.swift; sourceTree = "<group>"; };
 		4BA4E04A1FFD1D010034B522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA4E0561FFD1F200034B522 /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		4BA4E0581FFD20BA0034B522 /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				4BA4E02F1FFD1D000034B522 /* Assets.xcassets */,
 				4BA4E0311FFD1D000034B522 /* LaunchScreen.storyboard */,
 				4BA4E0341FFD1D000034B522 /* Info.plist */,
+				4BA4E0561FFD1F200034B522 /* CurrencyViewController.swift */,
+				4BA4E0581FFD20BA0034B522 /* CurrencyCell.swift */,
 			);
 			path = BitChart;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA4E0591FFD20BB0034B522 /* CurrencyCell.swift in Sources */,
 				4BA4E02B1FFD1D000034B522 /* SecondViewController.swift in Sources */,
+				4BA4E0571FFD1F200034B522 /* CurrencyViewController.swift in Sources */,
 				4BA4E0271FFD1D000034B522 /* AppDelegate.swift in Sources */,
 				4BA4E0291FFD1D000034B522 /* FirstViewController.swift in Sources */,
 			);
