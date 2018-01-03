@@ -9,6 +9,7 @@
 import UIKit
 
 class CurrencyCell: UITableViewCell {
+    @IBOutlet weak var blockView: UIView!
     @IBOutlet weak var currencyLabel: UILabel!
     @IBOutlet weak var rateLabel: UILabel!
     @IBOutlet weak var changeLabel: UILabel!

@@ -15,6 +15,7 @@
 		4BA4E0491FFD1D010034B522 /* BitChartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4E0481FFD1D010034B522 /* BitChartUITests.swift */; };
 		4BA4E0571FFD1F200034B522 /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4E0561FFD1F200034B522 /* CurrencyViewController.swift */; };
 		4BA4E0591FFD20BB0034B522 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4E0581FFD20BA0034B522 /* CurrencyCell.swift */; };
+		4BA4E05B1FFD310D0034B522 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4E05A1FFD310D0034B522 /* Currency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4BA4E04A1FFD1D010034B522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BA4E0561FFD1F200034B522 /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
 		4BA4E0581FFD20BA0034B522 /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		4BA4E05A1FFD310D0034B522 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4BA4E0341FFD1D000034B522 /* Info.plist */,
 				4BA4E0561FFD1F200034B522 /* CurrencyViewController.swift */,
 				4BA4E0581FFD20BA0034B522 /* CurrencyCell.swift */,
+				4BA4E05A1FFD310D0034B522 /* Currency.swift */,
 			);
 			path = BitChart;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA4E05B1FFD310D0034B522 /* Currency.swift in Sources */,
 				4BA4E0591FFD20BB0034B522 /* CurrencyCell.swift in Sources */,
 				4BA4E0571FFD1F200034B522 /* CurrencyViewController.swift in Sources */,
 				4BA4E0271FFD1D000034B522 /* AppDelegate.swift in Sources */,
